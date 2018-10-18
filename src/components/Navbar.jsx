@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="nav-wrapper purple darken-3">
       <div className="container">
-        <a className="brand-logo"> Poke 's time</a>{" "}
+        <a className="brand-logo left"> Poke 's time</a>{" "}
         <ul className="right">
           <li>
             <Link to="/home"> Home </Link>
@@ -20,4 +20,4 @@ const Navbar = () => {
     </nav>
   );
 };
-export default withRouter(Navbar);
+export default Navbar;
