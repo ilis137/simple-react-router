@@ -1,16 +1,13 @@
 import React from "react";
 import { Link, NavLink, withRouter } from "react-router-dom";
-const Navbar = props => {
-  setTimeout(() => {
-    props.history.push("/about");
-  }, 2000);
+const Navbar = () => {
   return (
     <nav className="nav-wrapper purple darken-3">
       <div className="container">
         <a className="brand-logo"> Poke 's time</a>{" "}
         <ul className="right">
           <li>
-            <Link to="/"> Home </Link>
+            <Link to="/home"> Home </Link>
           </li>
           <li>
             <Link to="/about"> About </Link>
